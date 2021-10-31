@@ -9,7 +9,7 @@ import UserView from '../views/UserView.vue';
 Vue.use(VueRouter);
 
 export default new VueRouter({
-  mode: 'history',
+  mode: 'history',  // 불필요한 해시값을 없애줌
   routes: [
     {
       path: '/',
