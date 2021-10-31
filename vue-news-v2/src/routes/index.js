@@ -13,10 +13,11 @@ export default new VueRouter({
   routes: [
     {
       path: '/',
-      redirect: '/news' 
+      redirect: '/news' // 기본 path일때 /news로 redirect해준다
     },
     {
       path: '/news',
+      // component: url로 넘어갔을 때 보여줄 컴포넌트
       component: NewsView,
     },
     {
